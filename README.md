@@ -34,10 +34,6 @@ Ikuti instruksi pada menu untuk memilih Status, Inventory, Battle, Toko, atau Ke
 
 Struktur kode saat ini masih bersifat prosedural, dimana data pemain dan musuh disimpan sebagai dictionary global, bukan sebagai object dari class. Untuk pengembangan lanjutan, beberapa hal yang direncanakan:
 
-- Refactor `player.py` dan `enemy.py` menjadi class (`Player`, `Enemy`, dengan subclass per jenis musuh)
-- Perbaikan bug validasi input pada `toko.py`
-- Penambahan jalur upgrade untuk atribut `dodge`
-
 ## Lisensi
 
 Proyek ini dibuat untuk keperluan tugas akademik.
