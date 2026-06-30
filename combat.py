@@ -3,7 +3,7 @@ import player
 import enemy
 import inventory
 
-def battle():
+def battle(): # random kemunculan boss
     if random.randint(1, 100) <= 20:
         current_enemy = random.choice(enemy.boss_pool).copy()
         print(f"\nBOSS MUNCUL!")
@@ -40,7 +40,7 @@ def battle(): # kode untuk battle dengan musuh random
 
         choice = input("> ")
 
-        if choice == "1":
+        if choice == "1": #
             if is_miss(current_enemy["dodge"]):
                 print(f"{current_enemy['name']} menghindar!")
             else:
