@@ -26,6 +26,7 @@ Pastikan Python 3 sudah terpasang, lalu jalankan dari direktori proyek:
 ```bash
 python main.py
 ```
+Atau jalankan langsung di dalam Visual Studio Code
 
 Ikuti instruksi pada menu untuk memilih Status, Inventory, Battle, Toko, atau Keluar.
 
