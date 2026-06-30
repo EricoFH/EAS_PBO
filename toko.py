@@ -45,7 +45,7 @@ def toko():
             break
 
         else:
-            ("Tidak valid")
+            print("Pilihan tidak valid")
 
 harga_jual = {
     "Goblin Ear": 5,
