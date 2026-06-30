@@ -1,6 +1,6 @@
-# EAS PBO — Text RPG Game
+# EAS PBO Text Based RPG Game
 
-Game RPG sederhana berbasis teks (command line), dibangun menggunakan Python tanpa library atau engine eksternal. Proyek ini dibuat sebagai studi kasus penerapan logika pemrograman terstruktur untuk tugas Pemrograman Berorientasi Objek (PBO).
+Game RPG sederhana berbasis teks yang dibangun menggunakan Python tanpa library atau engine eksternal. Proyek ini dibuat sebagai studi kasus penerapan logika pemrograman terstruktur untuk tugas Pemrograman Berorientasi Objek (PBO).
 
 ## Fitur
 
@@ -10,7 +10,7 @@ Game RPG sederhana berbasis teks (command line), dibangun menggunakan Python tan
 - **Toko** — membeli upgrade (max HP, attack, potion) dan menjual item hasil drop musuh
 
 ## Struktur Proyek
-
+```
 EAS_PBO/
 main.py        # Menu utama dan alur program
 player.py      # Data dan status pemain
@@ -18,7 +18,7 @@ enemy.py       # Basis data musuh beserta efek HP rendah
 combat.py      # Logika pertarungan
 inventory.py   # Pengelolaan item dan potion
 toko.py        # Sistem jual beli
-
+```
 ## Cara Menjalankan
 
 Pastikan Python 3 sudah terpasang, lalu jalankan dari direktori proyek:
