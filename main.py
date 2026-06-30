@@ -24,9 +24,8 @@ def main_menu():
 
         elif choice == "3":
             combat.battle()
-            
+
             if player.player["hp"] <= 0:
-                print("Game Over")
                 break
             
         elif choice == "4":
