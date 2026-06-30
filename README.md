@@ -4,7 +4,7 @@ Game RPG sederhana berbasis teks yang dibangun menggunakan Python tanpa library 
 
 ## Fitur
 
-- **Status pemain** — melihat HP, attack, gold, dan statistik karakter lainnya
+- **Status pemain** melihat HP, attack, gold, dan statistik karakter lainnya
 - **Pertarungan (combat)** — sistem battle dengan damage acak, mekanisme dodge/miss, serta efek khusus tiap musuh saat HP rendah (panic, enrage, self-heal, racun bertahap)
 - **Inventory** — menyimpan dan menggunakan item, termasuk potion untuk memulihkan HP
 - **Toko** — membeli upgrade (max HP, attack, potion) dan menjual item hasil drop musuh
