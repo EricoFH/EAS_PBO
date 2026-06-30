@@ -24,7 +24,7 @@ def use_potion():
     
     import player
     heal = 30
-    player.player["hp"] += heal
+    player.player["hp"] = min(player.player["hp"] + heal, player.player["max_hp"])
     inventory["Potion"]["qty"] -= 1
 
     if inventory["Potion"]["qty"] == 0:
