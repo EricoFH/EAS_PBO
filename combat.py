@@ -80,7 +80,8 @@ def battle(): # buat musuh random
 
     current_enemy["max_hp"] = current_enemy["hp"]  # simpan HP awal ( acuan yang di pakai persen)
     triggered_flag = {"active": False, "poison_turns_left": 0, "poison_damage": 0}
-
+    
+    print()
     print(f"Sebuah {current_enemy['name']} muncul!")
 
     while current_enemy["hp"] > 0 and player.player["hp"] > 0: # pilihan saat battle
