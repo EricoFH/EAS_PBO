@@ -72,7 +72,7 @@ def enemy_attack(current_enemy):
         print(f"{current_enemy['name']} menyerang balik sebesar {damage} damage!")
 
 def battle(): # buat musuh random
-    if random.randint(1, 100) <= 50:
+    if random.randint(1, 100) <= 40:
         current_enemy = random.choice(enemy.boss_pool).copy()
         print(f"\nBOSS MUNCUL!")
     else:
